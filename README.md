@@ -91,7 +91,7 @@ ponte-solidaria/
 
 ## Prints das telas
 
-### Página inicial (desktop)
+# Página inicial (desktop)
 ![Início](img/inicio-1280.png)
 
 ### Registro: celular (375px)
