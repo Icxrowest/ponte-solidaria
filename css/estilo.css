@@ -1,0 +1,64 @@
+/* ===== Base: celular (Mobile First) ===== */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+main {
+  padding: 0.5rem;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+.lead {
+  font-size: 1rem;
+}
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+  margin-top: 2rem;
+  background-color: #ffffff;
+}
+
+/* ===== Tablet: a partir de 768px ===== */
+@media (min-width: 768px) {
+  main {
+    padding: 1rem 2rem;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .lead {
+    font-size: 1.15rem;
+  }
+}
+
+/* ===== Desktop: a partir de 1024px ===== */
+@media (min-width: 1024px) {
+  main {
+    padding: 2rem 3rem;
+  }
+
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  .lead {
+    font-size: 1.3rem;
+  }
+}       
+
+
