@@ -61,4 +61,33 @@ footer {
   }
 }       
 
+/* ===== Flexbox: rodapé sempre no fim da página ===== */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+/* ===== Grid: tipos de ajuda e registros ===== */
+.painel-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .painel-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .painel-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
